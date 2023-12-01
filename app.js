@@ -17,6 +17,7 @@ function runEvents() {
     filterInput.addEventListener("keyup",filter);
 }
 
+
 function pageLoaded() {
     checkTodosFromStroge();
     todos.forEach(function (todo) {
