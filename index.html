@@ -10,11 +10,16 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>İnput Eventlari</title>
+    <style>
+        .clr:hover{
+           border-color: black !important;
+        }
+    </style>
 </head>
 
 <body style="background: rgb(250,156,0);
 background: linear-gradient(54deg, rgba(250,156,0,1) 0%, rgba(213,213,213,1) 100%);
-height: 100vh;">
+height: 100vh;  ">
 
     <div class="container">
         <div class="row">
@@ -27,7 +32,7 @@ height: 100vh;">
                         <input type="text" class="form-control mt-2" id="todoName" aria-describedby="todo"
                             placeholder="Todo Giriniz">
 
-                        <button id="todoAddButton" type="submit" class="btn btn-primary mt-4 btn-sm bg-transparent border-white">
+                        <button id="todoAddButton" type="submit" class="btn clr btn-primary mt-4 btn-sm bg-transparent border-white">
                             Todo Ekleyin</button>
                     </form>
 
@@ -59,7 +64,7 @@ height: 100vh;">
                     -->
                       </ul>
 
-                        <a href="#" id="clearButton" class="btn btn-primary btn-sm mt-3 bg-transparent border-white">Tüm Todoları Temizle</a>
+                        <a href="#" id="clearButton" class="btn clr btn-primary btn-sm mt-3 bg-transparent border-white">Tüm Todoları Temizle</a>
                 </div>
             </div>
         </div>
